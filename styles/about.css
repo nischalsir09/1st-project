@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url("../aboutusphoto/cursor.png"), auto;
+}
+.top-con {
+  display: flex;
+  flex-direction: column;
+}
+#team-heading {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+#teamp {
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-bottom: 6rem;
+}
+.main .container {
+  background-color: white;
+  max-width: 16rem;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 13px 13px;
+  margin: 10px 10px;
+  border-radius: 12%;
+}
+
+.main .container img {
+  width: 14rem;
+  height: 15rem;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  padding: 2px 8px;
+  border-radius: 70px;
+  opacity: 0.8;
+  box-shadow: 0 3px 20px 20px rgba(237, 231, 225, 0.5);
+}
+img:hover {
+  transform: scale(1.09, 1.09);
+}
+
+.main .container .text {
+  padding: 12px 0px;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+
+#portfolio{
+  margin-top: 1rem;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: #F5F5F5;
+  border-radius: 60px;
+}
+#portfolio:hover{
+  background-color: black;
+  color: #F5F5F5;
+}
+
+/* comanyinfo css comes here */
+
+.company-info {
+  background-image: url("../aboutusphoto/light-gray-color-solid-background-1920x1080.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  padding: 2rem;
+  margin: 4rem;
+  margin-top:5rem;
+  font-size: large;
+}
+
+#company-heading {
+  margin: 12px 0px;
+  padding: 0;
+  text-align: left;
+}
+.company-info .heading p {
+  color: white;
+  margin: 12px 0px;
+  max-width: 55rem;
+}
+.company-info .heading .contact h5 {
+  font-size: 2rem;
+  color:#7B4A12;
+  font-weight:600;
+}
+.company-info .contact h5:hover{
+  color: #212121;
+}
+.company-info .heading .contact p i {
+  margin-right: 9px;
+}
+
+.company-info img {
+  width: 30%;
+  height: 35%;
+  object-fit: cover;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 0.4));
+  transition: transform 0.3s, filter 0.3s;
+}
+.company-info img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1.4));
+}
+
+.company-info .heading h1 span {
+  color: black;
+}
+
+.company-info .social-media {
+  display: grid;
+  margin-left: 1rem;
+}
+.company-info .social-media i {
+  color: #212121;
+  font-size: 4.5rem;
+  margin-bottom: 5rem;
+  transition: transform 0.3s;
+}
+.company-info .social-media i:hover {
+  transform: scale(1.5);
+}

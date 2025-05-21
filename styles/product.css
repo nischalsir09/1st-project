@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+/* Hero Section */
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Categories Section */
+.categories {
+    padding: 5rem ;
+    background: white;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: 4.5rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.Watch {
+    width: 28rem;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.Watch:hover {
+    transform: translateY(-10px);
+}
+
+.Watch-image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Watch-1 {
+    background-image: url('../productphoto/ClassicBG.jpg');
+}
+
+.Watch-2 {
+    background-image: url('../productphoto/SportBG.jpg');
+}
+
+.Watch-4 {
+    background-image: url('../productphoto/LuxuryBG.jpg');
+}
+
+.Watch-5 {
+    background-image: url('../productphoto/ModernBG.jpg');
+}
+
+.Watch-content {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.Watch-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+}
+
+.Watch-content p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.price-range {
+    color: #007bff;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.shop-now {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s;
+}
+
+.shop-now i {
+    margin-left: 0.5rem;
+}
+
+.shop-now:hover {
+    background: #007bff;
+}
+
+/* Features Section */
+.features {
+    padding: 4rem 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    background: #f8f9fa;
+}
+
+.feature {
+    text-align: center;
+    padding: 2rem;
+}
+
+.feature i {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+/* Quote Section */
+.quote {
+    color:black;
+    text-align: center;
+    padding: 4rem 5%;
+}
+
+.quote h2 {
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}

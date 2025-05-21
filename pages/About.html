@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles/about.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <title>About Us</title>
+  <!-- css of third section from -->
+  <style>
+    .feedback-container {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 600px;
+      padding: 2rem;
+      margin: 0 auto;
+    }
+
+    .container {
+      margin-bottom: 2rem;
+      margin-left: 8rem;
+      display: flex;
+      max-width: 1200px;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .feedback-container h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 3rem;
+      color: #333;
+    }
+
+    .feedback-container p {
+      text-align: center;
+      color: #666;
+      margin-bottom: 2rem;
+      font-size: 20px;
+    }
+
+    .feedback-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .feedback-form label {
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #555;
+      font-size: 1.5rem;
+    }
+    #feedback-name {
+      font-size: 2rem;
+
+    }
+    .feedback-form select,
+    .feedback-form input,
+    .feedback-form select,
+    .feedback-form textarea {
+      margin-bottom: 1.5rem;
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1.3rem;
+      outline: none;
+    }
+    .feedback-form input:focus,
+    .feedback-form select:focus,
+    .feedback-form textarea:focus {
+      border-color: #333333;
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    }
+
+    .feedback-form button {
+      padding: 0.75rem;
+      background-color: #333333;
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.5rem;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .feedback-form button:hover {
+      background-color: black;
+    }
+
+    .feedback-success-message {
+      display: none;
+      color: green;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .info-section h2 {
+      padding-top: 8rem;
+    }
+
+    #Locations {
+      padding-top: 6rem;
+    }
+
+    .placename li {
+      padding: 15px;
+      font-size: 15px;
+    }
+
+    .waytocontact li {
+      padding: 1rem;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<!-- Navbar -->
+<header class="header">
+  <nav class="navbar">
+    <a href="#" class="nav-logo">A one</a>
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="./Home.html" class="nav-link" title="CompanyName">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="./About.html" class="nav-link">About</a>
+      </li>
+      <li Class="nav-item">
+        <a href="./Blog.html" class="nav-link">Blog</a>
+      <li class="nav-item">
+        <a href="./Product.html" class="nav-link">Product</a>
+      </li>
+      <li class="nav-item">
+        <a href="./Research.html" class="nav-link">Research</a>
+      </li>
+    </ul>
+    <div class="login">
+      <p style="color: white;font-size:12px; text-align: center;">SignIn</p>
+      <a href="#"><img src="../icon.png" style=" height: 30px;" title="Login/SignIn"></a>
+    </div>
+  </nav>
+</header>
+<!-- body content from here -->
+
+<body>
+  <!-- companyinfo -->
+  <div class="top-con">
+    <div class="company-info">
+      <div class="heading">
+        <h1 id="company-heading"><span>Best</span></h1>
+        <h1 style="color:black;">E-commerce Webiste</h1>
+        <p>Aone is a newly established company in 2024,
+           specializing in providing high-quality watches. 
+          We directly import watches from renowned watch manufacturers,
+          Our mission is to offer premium timepieces to our customers at competitive prices, 
+          bringing luxury and precision to your wrist.
+        </p>
+        <div class="contact">
+          <h5>Call for Business</h5>
+          <p><i class="fa-solid fa-phone"></i>+977 9800000000</p>
+        </div>
+      </div>
+      <img src="../aboutusphoto/men.jpg" alt="watch">
+      <div class="social-media">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+  </div>
+ <!-- teammembers -->
+    <h1 id="team-heading"> Need help? We're here for you 24/7.</h1>
+    <p id="teamp">Our dedicated team of growth expert is ready to help around the clock.</p>
+    <div class="main">
+      <div class="container">
+        <img src="../aboutusphoto/boy1.jpeg" alt="Nischal Rai">
+        <div class="text">
+          <div class="details">
+            <h3>Nischal Rai</h3>
+            <p>UI & UX</p>
+          </div>
+          <a id="portfolio" href="../portfolio/nisport.html">Portfolio</a>
+        </div>
+      </div>
+      <div class="container">
+        <img src="../aboutusphoto/boy2.jpeg" alt="Kyani dyan Rai">
+        <div class="text">
+          <div class="details">
+            <h3>Kyani dyan Rai</h3>
+            <p>UI & UX</p>
+          </div>
+          <a id="portfolio" href="../portfolio/kyaniport.html">Portfolio</a>
+        </div>
+      </div>
+      <div class="container">
+        <img src="../aboutusphoto/boy3.jpeg" alt="Rijan">
+        <div class="text">
+          <div class="details">
+            <h3>Rijan Dhital</h3>
+            <p>UI & UX</p>
+          </div>
+          <a id="portfolio" href="../portfolio/rijanport.html">Portfolio</a>
+        </div>
+      </div>
+      <div class="container">
+        <img src="../aboutusphoto/boy4.jpeg" alt="Ronit">
+        <div class="text">
+          <div class="details">
+            <h3>Ronit Subedi</h3>
+            <p>UI & UX</p>
+          </div>
+          <a id="portfolio" href="../portfolio/roniport.html">Portfolio</a>
+        </div>
+      </div>
+      <div class="container">
+        <img src="../aboutusphoto/girl1.jpeg" alt="Smita Karki">
+        <div class="text">
+          <div class="details">
+            <h3>Smita Karki</h3>
+            <p>UI & UX</p>
+          </div>
+          <a id="portfolio" href="../portfolio/smiport.html">Portfolio</a>
+        </div>
+      </div>
+    </div>
+     
+   <!-- third cointainer feedback -->
+  <div class="container">
+      <div class="feedback-container" id="feedback-container">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Please fill out the form below, and we'll get back to you as soon as possible.
+        </p>
+        <form id="feedback-form" class="feedback-form">
+          <label for="feedback-name">Full Name</label>
+          <input style="font-size: 15px;" type="text" id="feedback-name" name="name" placeholder="Enter your full name"
+            required>
+          <label for="feedback-email">Email</label>
+          <input style="font-size: 15px;" emailid="feedback-email" name="email" placeholder="Enter your email address"
+            required>
+          <label for="feedback-subject">Subject</label>
+          <select id="feedback-subject" name="subject" required>
+            <option value="">Select a Subject</option>
+            <option value="feedback">Feedback</option>
+            <option value="support">Support</option>
+            <option value="inquiry">Inquiry</option>
+          </select>
+          <label for="feedback-message">Message</label>
+          <textarea style="font-size: 15px;" id="feedback-message" name="message" rows="4"
+            placeholder="Enter your message here..." required></textarea>
+          <button type="submit" id="feedback-submit">Submit</button>
+          <p class="feedback-success-message" id="feedback-success-message">Thank you for your feedback! We'll get back to
+            you soon.</p>
+        </form>
+    </div>
+    <!-- third section right side div -->
+    <div class="secondone"> 
+      <div class="info-section">
+        <h2 style="font-size:30px;">Contact Information</h2>
+        <ul class="waytocontact">
+          <li style="list-style-type:square"><strong>Business</strong>: <a href="https://mail.google.com">businessaone.com</a></li>
+          <li style="list-style-type:square"><strong>Customer support</strong>: <a href="https://mail.google.com">Customersupportaone.com</a></li>
+          <li style="list-style-type:square"><strong>Call us</strong>: +977 9800000000, +025 759</li>
+          <li style="list-style-type:square"><strong>Office Hours</strong>: Mon - Fri, 9:00 AM - 5:00 PM</li>
+        </ul>
+        <h3 id="Locations" style="font-size:30px;">Location_On</h3>
+        <ul class="placename">
+          <li style="list-style-type:square">Kathmandu: 10 NewRoad Street, Nepal</li>
+          <li style="list-style-type:square">Jhapa: 40 Praid Chowk, Nepal</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/3cead7a5a6.js" crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('feedback-form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent form submission
+    // Show success message
+    const successMessage = document.getElementById('feedback-success-message');
+    successMessage.style.display = 'block';
+    // Clear form
+    this.reset();
+  });
+  </script>
+</body>
+ <!-- footer here -->
+ <footer>
+  <div class="all-items">
+    <div class="services">
+      <h3>Services</h3>
+      <p>Free Shipping</p>
+      <p>Warranty & Repairs</p>
+      <p>Gift Wrapping</p>
+      <p>Watch Customization</p>
+      <p>Authenticity Guarantee</p>
+      <p>Easy Returns</p>
+      <p>Customer Support</p>
+    </div>
+    <div id="Info" class="more-info">
+      <h3>Info</h3>
+      <a href="Home.html">Home</a>
+      <a href="Research.html">Research</a>
+      <a href="Blog.html">Blog</a>
+      <a href="Product.html">Product</a>
+      <a href="About.html">About</a>
+    </div>
+    <div class="social-media">
+      <h3>Follow Us</h3>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2025 A one Teams. All Rights Reserved.</p>
+  </div>
+</footer>
+</html>

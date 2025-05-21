@@ -1,0 +1,361 @@
+*{                                          /*body*/
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{                                     /*slider hidden while adjusting slide*/
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+figure{                                       /*Adjusting slide with animation*/
+    position: relative;
+    left: 0;
+    width:400%;
+    animation: 10s slide infinite;
+}
+.slide {                                      /*Adjusting in slide*/
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.slide h1{                                     /*slide text*/
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 1px #000000;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.slide img{                                      /*slide image*/
+    width: 100%;
+    height: 500px;
+}
+@keyframes slide{                                /* slide show animation*/
+    0%{
+        left:0;
+    }
+    10%{
+        left:0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    55%{
+        left:-300%;
+    }
+    65%{
+        left:-300%;
+    }
+    66%{
+        left:-200%;
+    }
+    74%{
+        left:-200%;
+    }
+    75%{
+        left:-100%;
+    }
+    85%{
+        left:-100%;
+    }
+    90%{
+        left:0;
+    }
+    100%{
+        left:0;
+    }
+}
+body{
+    background-color: rgb(224, 232, 233);                       /*background colour, font, text and so on*/
+}
+h1{
+    color: #0b3d41;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 1px #000000;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 43px;
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 5px;
+    color: #290303;
+}
+.content{                                                     /*Watch container*/
+    width: 18rem;
+    margin: 40px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 20px;
+    box-shadow: 0px 3px 40px #000;
+    transition: .4s;
+    background: white;
+    justify-content: center;
+    outline: .2rem solid #222;
+    outline-offset: 0;
+}
+.content:hover{                                              /*Watch container-Animation*/
+    box-shadow: 0 3px 6px rgba(0,0,0,0,16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+.content img{                                                /*image put in Container*/
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.content:hover img{                                           /* Waxtch container = watch hover Animation*/
+    scale: 1.1;
+}
+.off-info .sm-title{                                          /*Watch container-heart icon*/
+    background: rgb(50, 127, 127);                                 
+    color: white;
+    display: inline-block;
+    padding: left;
+    top: 0;
+    left: 0;
+    justify-content: left;
+}
+button{                                                       /* button */
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding:20px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.section-one-container{                                       /*background Rolex Watch photo*/
+    width: 100%;
+    height: 72vh;
+    background-image: url('../pagesphoto/RolexBG5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.section-one-offer{                                          /*25% offer text*/
+    font-size: 3.5rem;
+    font-family: 'Allison', cursive;
+    text-transform: uppercase;
+    background: rgb(125, 6, 6);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: left;
+    top: 0;
+    left: 0;
+}
+.section-one-text {                                           /*Rolex Watch short intro*/
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: column left;
+}
+.section-one-heading{                                         /*Special Collection Text*/
+    font-size: 5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    -webkit-text-stroke: 3px #000000;
+}
+header {                                                       /*Header A-ONE logo and add to add to cart content*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 9%;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{                                                           /*A-one header*/
+    font-size: 25px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: monospace;
+    letter-spacing: 8px;
+}
+.price-and-cart .price{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price-and-cart .add-cart {
+    padding: 20px;
+    background:rgb(50, 127, 127);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* Cart Icon Styles */
+.cart-icon {
+    cursor: pointer;
+    position: relative;
+    font-size: 1.5em;
+}
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #fc8e2e;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 50%;
+}
+/* Cart Sidebar Styles */
+.cart {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    height: 100vh;
+    padding: 20px;
+    background: white;
+    box-shadow: -2px 0 4px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    z-index: 1001;
+}
+.cart.active {
+    right: 0;
+}
+.cart-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    color: #333;
+}
+.cart-box {
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.cart-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+.detail-box {
+    display: grid;
+    row-gap: 0.5rem;
+}
+.cart-product-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #333;
+}
+.cart-price {
+    font-weight: 500;
+    color:  #000000;
+}
+.cart-quantity {
+    border: 1px solid #ddd;
+    outline-color: #ff941b;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+.cart-remove {
+    font-size: 24px;
+    color: #ff941b;
+    cursor: pointer;
+}
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+.total-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.total-price {
+    margin-left: 0.5rem;
+    color: #000000;
+}
+.btn-buy {
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: #ff941b;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.btn-buy:hover {
+    background: #dfa766;
+}
+#cart-close {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+}
+/* Add to Cart Button Styles */
+.add-cart {
+    padding: 8px 20px;
+    background: #dfa766;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.add-cart:hover {
+    background: #dfa766;
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classic Watch</title>
+    <link rel="stylesheet" href="../productpagesstyle/classic.css">                                                     <!--linking CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">    <!-- for heart icon from cdjns -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>      <!--for add to cart from remixicon -->
+</head>
+<body>
+    <!-- Header with Cart -->
+    <header>
+        <a href="#" class="logo">A-ONE</a>
+        <div class="nav-icons">
+            <div id="cart-icon" class="cart-icon">
+                <i class="ri-shopping-bag-line"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+    <!-- Cart Sidebar -->
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs. 0/-</div>
+        </div>
+        <button class="btn-buy">Buy Now</button>
+        <i class="ri-close-line" id="cart-close"></i>
+    </div>
+    <!-- <h3>This is header details</h3> -->
+    <section class="first-section">   
+        <br>
+        <br>
+        <br>
+        <br>
+            <div class="slider">
+            <figure>
+            <div class="slide">
+                <h1>
+                    Rolex
+                </h1>
+                        <img src="../pagesphoto/RolexBG1.jpg">  <!--slide show photo 1-->
+            </div>
+            <div class="slide">
+                <h1>
+                    Could 
+                </h1>
+                        <img src="../pagesphoto/RolexBG2.jpg">  <!--slide show photo 2-->
+            </div>
+            <div class="slide">
+                <h1>
+                    Be Your
+                </h1>
+                        <img src="../pagesphoto/RolexBG3.jpg">   <!--slide show photo 3-->
+            </div>
+            <div class="slide">
+                <h1>
+                    Next TimePiece
+                </h1>
+                        <img src="../pagesphoto/RolexBG4.jpg">    <!--slide show photo 4-->
+            </div>
+            </figure>
+            </div>
+    </section>
+    <!-- <h3>This is product details, container, all product related stuff</h3> -->
+    <section class="second-section">         <!--Second Section -->
+        <h1>PRODUCT YOU MAY LIKE</h1>
+        <br>
+        <br>
+            <!-- Product 1 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex1.jpg" alt="Rolex GMT Master">      <!--Watch photo-->
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off                   <!--making Offer-->
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex GMT Master</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 2,00,000/-</span>
+                    <button class="add-cart" data-id="1" data-name="Rolex GMT Master" data-price="200000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex2.jpg" alt="Rolex Submariner">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Submariner</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 8,00,000/-</span>
+                    <button class="add-cart" data-id="2" data-name="Rolex Submariner" data-price="800000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex3.jpg" alt="Rolex Day-Date">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Day-Date</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 10,00,000/-</span>
+                    <button class="add-cart" data-id="3" data-name="Rolex Day-Date" data-price="1000000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex4.jpg" alt="Rolex Oyster Perpetual">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Oyster </h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 9,00,000/-</span>
+                    <button class="add-cart" data-id="4" data-name="Rolex Oyster Perpetual" data-price="900000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Special Collection Banner -->
+    <section class="second section-one">
+        <div class="section-one-container">
+            <div class="container">
+                <h1 class="section-one-offer">25% off</h1>
+                <h1 class="section-one-heading">Special Collection</h1>
+            </div>
+        </div>
+    </section>
+            <!-- Product 5 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex5.jpg" alt="Rolex Explorer">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Explorer</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 9,00,000/-</span>
+                    <button class="add-cart" data-id="5" data-name="Rolex Explorer" data-price="900000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex6.jpg" alt="Rolex Daytona">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                    <br>
+                </div>
+                <br>
+                <h2>Rolex Daytona</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 13,00,000/-</span>
+                    <button class="add-cart" data-id="6" data-name="Rolex Daytona" data-price="1300000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex7.jpg" alt="Rolex Yatch-Master">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Yatch-Master</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 7,00,000/-</span>
+                    <button class="add-cart" data-id="7" data-name="Rolex Yatch-Master" data-price="700000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Product 8 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex8.jpg" alt="Rolex Sky-Dweller">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Sky-Dweller</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 6,00,000/-</span>
+                    <button class="add-cart" data-id="8" data-name="Rolex Sky-Dweller" data-price="600000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <section class="second section-one">  <!--Intro of Rolex Watch-->
+                <div class="section-one-container">
+                <div class="container">
+                <p class="section-one-text"> 
+                    Rolex is a prestigious Swiss watchmaker known for its exceptional craftsmanship, 
+                    innovative designs, and reliable performance. Established in 1905, it has become a
+                    symbol of luxury and success, with iconic models such as the Submariner, Daytona,
+                    and Datejust. Rolex watches are celebrated for their timeless appeal and enduring quality.
+                </p>
+                </div>
+                </div>
+            </section>       
+            <!-- Product 9 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex9.jpg" alt="Rolex Air-king">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Air-king</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 12,00,000/-</span>
+                    <button class="add-cart" data-id="9" data-name="Rolex Air-king" data-price="1200000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Product 10 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex10.jpg" alt="Rolex Cellini">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Cellini</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 11,00,000/-</span>
+                    <button class="add-cart" data-id="10" data-name="Rolex Cellini" data-price="1100000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Product 11 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex11.jpg" alt="Rolex Lady-Datejust">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Lady-Datejust</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 12,00,000/-</span>
+                    <button class="add-cart" data-id="11" data-name="Rolex Lady-Datejust" data-price="1200000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            <!-- Product 12 -->
+            <div class="content">
+                <img src="../pagesphoto/Rolex12.jpg" alt="Rolex Milgauss">
+                <div class="off-info">
+                    <br>
+                    <h2 class="sm-title">
+                        <i class="fa-regular fa-heart"></i> 25% off
+                    </h2>
+                </div>
+                <br>
+                <h2>Rolex Milgauss</h2>
+                <br>
+                <div class="price-and-cart">
+                    <span class="price">Rs. 8,00,000/-</span>
+                    <button class="add-cart" data-id="12" data-name="Rolex Milgauss" data-price="800000">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+    </section>
+    <!-- Scripts -->
+    <script src="../js/classic.js"></script>
+</body>
+</html>

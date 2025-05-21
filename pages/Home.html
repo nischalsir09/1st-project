@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=groups_2" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <!-- /* internal Css*/ of fourth container -->
+    <style>
+        .fourthcontainer {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        #fourthheading {
+            margin: 2rem 0 2rem 0;
+            display: grid;
+           justify-content: center;
+            font-size: 6rem;
+            color: black;
+        }
+        #fourthheading:hover{
+            text-decoration:underline;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-bottom: 2rem;
+        }
+
+        .feature {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 8px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: left;
+            height: 35rem;
+        }
+       .feature:hover{
+        transform: scale(1.05);
+       }
+        .feature img {
+            width: 100%;
+            height: 23rem;
+        }
+        .feature img:hover{
+            transform: scale(1.09);
+        }
+
+        .feature-content {
+            padding: 15px;
+        }
+
+        .feature h3 {
+            margin: 0 0 10px;
+            font-size: 18px;
+        }
+
+        .feature p {
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<!-- nav-bar below -->
+<header class="header">
+    <nav class="navbar">
+        <a href="#" class="nav-logo" title="CompanyName">A one</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="./Home.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="./About.html" class="nav-link">About</a>
+            </li>
+            <li Class="nav-item">
+                <a href="./Blog.html" class="nav-link">Blog</a>
+            <li class="nav-item">
+                <a href="./Product.html" class="nav-link">Product</a> 
+            </li>
+            <li class="nav-item">
+                <a href="./Research.html" class="nav-link">Research</a>
+            </li> 
+        </ul>
+         <div class="login">
+            <p style="color: white;font-size:12px; text-align: center;">SignIn</p>
+            <a href="../start/l2create.html" ><img src="../icon.png" style=" height: 30px;" title="Login/SignIn"></a>
+        </div>
+    </nav>
+  </header>
+<!-- main conten from here -->
+<body>
+    <div class="container">
+        <div class="video">
+            <video loop autoplay muted>
+                <source src="../homedata/cinematic.mp4">
+            </video>
+        </div>
+        <div class="texts">
+            <h1><span>Designed For</span></h1>
+            <h1>Best Performance</h1>
+            <p id="homep">"Aone Watches" is your one-stop destination for all things timekeeping.
+        At Aone, 
+        we specialize in offering a wide range of premium watches, catering to diverse tastes and preferences.
+        From classic analog designs to cutting-edge smartwatches, we bring you the best from renowned brands &
+        innovative collections</p>
+            <button  onclick="window.location.href='./Product.html'">Buy Watches</button>
+        </div>
+    </div>
+    <!-- top sales -->
+    <div class="secondcontainer">
+        <p>OUR TOP WATCHES</p>
+        <div class="small-container">
+            <div class="col-1">
+                <img src="../homedata/1.png" width="370px">
+                <pre style="font-size: 2rem;">Seiko Epson</pre>
+            </div>
+            <div class="col-1">
+                <img src="../homedata/2.png" width="370px">
+                <pre style="font-size: 2rem;">D-4 Digital</pre>
+            </div>
+            <div class="col-1">
+                <img src="../homedata/3.png" width="370px">
+                <pre style="font-size: 2rem;">Sonata Classic Quartz </pre>
+            </div>
+        </div>
+    </div>
+    <!-- icon  -->
+    <div class="thirdcontainer">
+        <i class="fa-solid fa-people-group"></i>
+        <p>10,000+ Happy Customers</p>
+    </div>
+    <!-- features of watch  -->
+    <div class=" fourthcontainer">
+        <h1 id="fourthheading">Features of Watch</h1>
+        <div class="features">
+            <div class="feature">
+                <img src="../homedata/watch2.jpg" width="100px" alt="Superior Craftsmanship">
+                <div class="feature-content">
+                    <h3>Superior Craftsmanship</h3>
+                    <p>Each Reddy watch is meticulously crafted with precision and attention to detail.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="../homedata/watch1.jpg" width="100px" alt="Attention to Detail">
+                <div class="feature-content">
+                    <h3>Attention to Detail</h3>
+                    <p>Every aspect of the Reddy watch showcases impeccable attention to detail.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="../homedata/watch3.jpg" width="100px" alt="Elegant and Timeless Design">
+                <div class="feature-content">
+                    <h3>Elegant and Timeless Design</h3>
+                    <p>The Reddy watch features an elegant and timeless design.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="../homedata/watch4.jpg" width="100px" alt="Comfortable Fit">
+                <div class="feature-content">
+                    <h3>Comfortable Fit</h3>
+                    <p>Designed with wearer comfort in mind, the Reddy watch offers a comfortable fit.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="../homedata/watch5.jpg" width="100px" alt="Water-Resistance">
+                <div class="feature-content">
+                    <h3>Water-Resistance</h3>
+                    <p>The Reddy watch is water-resistant, offering protection against water splashes.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="../homedata/3.png" width="100px" alt="Interchangeable Straps">
+                <div class="feature-content">
+                    <h3>Interchangeable Straps</h3>
+                    <p>Customize your Reddy watch with interchangeable straps.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/3cead7a5a6.js" crossorigin="anonymous"></script>
+<script src="../js/homebutton.js"></script>
+<!-- footer here -->
+<footer>
+    <div class="all-items">
+        <div class="services">
+            <h3>Services</h3>
+            <p>Free Shipping</p>
+            <p>Warranty & Repairs</p>
+            <p>Gift Wrapping</p>
+            <p>Watch Customization</p>
+            <p>Authenticity Guarantee</p>
+            <p>Easy Returns</p>
+            <p>Customer Support</p>
+        </div>
+        <div id="Info" class="more-info">
+            <h3>Info</h3>
+            <a href="Home.html">Home</a>
+            <a href="Research.html">Research</a>
+            <a href="Blog.html">Blog</a>
+            <a href="Product.html">Product</a>
+            <a href="About.html">About</a>
+        </div>
+
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2025 A one Teams. All Rights Reserved.</p>
+    </div>
+</footer>
+</html>

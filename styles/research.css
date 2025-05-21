@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+p{
+    font-size: 1.7rem;
+    padding: 6px;
+}
+
+/* Body Styling */
+.allcon {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    background-color: white;
+}
+
+/* Heading Styling */
+h1{
+    color:#B66A50; /* Primary color */
+    font-size:4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+} 
+h2 {
+    color:#B66A50; /* Primary color */
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+h5{
+    color: #B66A50;
+    font-size: 2rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 3px solid; /* Secondary color */
+    border-radius: 20px;
+    background:white;
+    overflow: hidden;
+}
+
+th, td {
+    font-size:18px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+}
+
+th {
+    padding: 3rem;
+    background-color:#333333; /* Header background color */
+    color:white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+/* Box Styling */
+.box {
+    padding: 20px; /* Box padding */
+    border-radius: 10px; /* Box border radius */
+    margin-bottom: 15px; /* Box margin bottom */
+}
+
+/* Box 1 Styling */
+#box1 {
+    height: 15rem;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #F5F5F5;
+    border: 2px solid black;
+   
+}
+
+/* Box 2 Styling */
+#box2 {
+    margin: 0 4rem;
+    background-color: #F5F5F5;
+    border: 2px solid #0f5132;
+}
+
+/* Box 3 Styling */
+h6{
+    color: #B66A50;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+#box3-images img {
+    max-width: 33%;
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* Box 4 Styling */
+#box4 {
+    background-color:#F5F5F5;
+    border: 2px solid black;
+    color: black;
+}
+
+/* Box 5 Styling */
+#box5 {
+    background-color:#F5F5F5;
+     color: black;
+    border: 2px solid #842029;
+}
